@@ -1,4 +1,4 @@
-INSERT INTO `categories` (`category_id`, `category_ref_id`, `title`, `created_at`, `updated_at`, `deleted_at`) VALUES (1, NULL, 'لباس و پوشاک', NULL, NULL, NULL);
+﻿INSERT INTO `categories` (`category_id`, `category_ref_id`, `title`, `created_at`, `updated_at`, `deleted_at`) VALUES (1, NULL, 'لباس و پوشاک', NULL, NULL, NULL);
 INSERT INTO `categories` (`category_id`, `category_ref_id`, `title`, `created_at`, `updated_at`, `deleted_at`) VALUES (2, NULL, 'آرایشی بهداشتی', NULL, NULL, NULL);
 INSERT INTO `categories` (`category_id`, `category_ref_id`, `title`, `created_at`, `updated_at`, `deleted_at`) VALUES (3, NULL, 'لوازم جانبی موبایل', NULL, NULL, NULL);
 INSERT INTO `categories` (`category_id`, `category_ref_id`, `title`, `created_at`, `updated_at`, `deleted_at`) VALUES (4, NULL, 'گوشی موبایل', NULL, NULL, NULL);
@@ -21,4 +21,4 @@ INSERT INTO `products` (`product_id`, `title`, `description`, `created_at`, `upd
 INSERT INTO `products` (`product_id`, `title`, `description`, `created_at`, `updated_at`, `deleted_at`) VALUES (5, 'گلکسی', NULL, NULL, NULL, NULL);
 INSERT INTO `products` (`product_id`, `title`, `description`, `created_at`, `updated_at`, `deleted_at`) VALUES (6, 'p2', NULL, NULL, NULL, NULL);
 INSERT INTO `shops` (`shop_id`, `owner_id`, `titlt`, `created_at`, `updated_at`, `deleted_at`) VALUES (1, NULL, 'A', NULL, NULL, NULL);
-INSERT INTO `shops` (`shop_id`, `owner_id`, `titlt`, `created_at`, `updated_at`, `deleted_at`) VALUES (2, NULL, 'B', NULL, NULL, NULL);
+
