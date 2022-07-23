@@ -326,7 +326,7 @@ CREATE TABLE `store_items`  (
   `qty` int NULL DEFAULT NULL,
   PRIMARY KEY (`product_ref_id`, `store_ref_id`) USING BTREE,
   INDEX `store_ref_id`(`store_ref_id` ASC) USING BTREE,
-  CONSTRAINT `pr_ref_id` FOREIGN KEY (`product_ref_id`) REFERENCES `products` (`product_id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `pr_ref_id` FOREIGN KEY (`product_ref_id`) REFERENCES `product_prices` (`product_price_id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `store_ref_id` FOREIGN KEY (`store_ref_id`) REFERENCES `stores` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
